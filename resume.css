@@ -1,4 +1,4 @@
-
+ /* code for class profile (section of resume where profile is created) */
 .profile{
     position: absolute;
     display: inline-block;
@@ -8,6 +8,8 @@
     height: 330px;
     font: bold;
 }
+
+/* code to style class image(where image is placed) */
 .image{
     display: flex;
     display: inline-block;
@@ -20,11 +22,15 @@
     border-radius: 50%;
     background-size: cover;
 }
+
+/* code for image (sets border radius, width and height) */
 img{
     width:200px;
     width: 200px;
     border-radius: 50%;
 }
+
+/* code for class links(section of resume where links are placed) */
 .links{
     display: flex;
     display: inline-block;
@@ -35,6 +41,8 @@ img{
     left: 20%;
     right: 20%;
 }
+
+/* code for class rich_black (rich_black section of resume)  */
 .rich_black{
     display: inline-block;
     margin-top: 330px;
@@ -43,6 +51,9 @@ img{
     background-color: #051923;
     color:white;
 }
+
+   /* code for class white (white section of resume)  */
+ 
 .white{
     
     color: #00A6FB;
@@ -54,10 +65,18 @@ img{
     left: 310px;
 
 }
+/* to change the colour of all p tags in class white  */
 .white p{
     color: #051923;
 }
+/* to change the color of all h3 and anchor tags in class link to colour white and remove text decoration */
 .links h3,a{
     color:white;
     text-decoration: none;
+}
+
+/* to make horizontal rule darker */
+.white hr{      
+    border-color: black;
+    border-width: 2px;
 }
