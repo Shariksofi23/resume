@@ -39,16 +39,16 @@ img{
     display: inline-block;
     margin-top: 330px;
     width: 300px;
-    height: 700px;
+    height: 830px;
     background-color: #051923;
     color:white;
 }
 .white{
-    display: flex;
+    
     color: #00A6FB;
     display: inline-block;
     position: absolute;
-    padding-left: 5%;
+    padding-left:5%;
     width: 500px;
     height: 1000px;
     left: 310px;
@@ -56,4 +56,8 @@ img{
 }
 .white p{
     color: #051923;
+}
+.links h3,a{
+    color:white;
+    text-decoration: none;
 }
