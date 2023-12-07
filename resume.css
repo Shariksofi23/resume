@@ -1,4 +1,5 @@
- /* code for class profile (section of resume where profile is created) */
+
+/* code for class profile (section of resume where profile is created) */
 .profile{
     position: absolute;
     display: inline-block;
@@ -45,6 +46,7 @@ img{
 /* code for class rich_black (rich_black section of resume)  */
 .rich_black{
     display: inline-block;
+    text-align: center;
     margin-top: 330px;
     width: 300px;
     height: 830px;
@@ -60,9 +62,9 @@ img{
     display: inline-block;
     position: absolute;
     padding-left:5%;
-    width: 500px;
+    width: 350px;
     height: 1000px;
-    left: 310px;
+    left: 45%;
 
 }
 /* to change the colour of all p tags in class white  */
@@ -79,4 +81,20 @@ img{
 .white hr{      
     border-color: black;
     border-width: 2px;
+}
+/* aligns resume at the centre and creates border around it */
+main{
+    font-family:'Arial Narrow', Arial, sans-serif;
+    margin:0 auto;
+    border: 2px solid black;
+    padding: 20px;
+    width: 730px;
+}
+/* to change color of h4  */
+h4{
+    color: black;
+}
+/* to change the color of h4 in class rich_black to white from black */
+.rich_black h4{
+    color: white;
 }
